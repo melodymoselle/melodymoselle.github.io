@@ -1,0 +1,9 @@
+#Portfolio Masonry Grid
+
+small square = 212.5 x 230 // 400 x 400
+tall		 = 212.5 x 430 
+large square = 455 x 430
+wide 		 = 455 x 200
+
+
+single page slideshow = 617 x 430
