@@ -10,6 +10,7 @@ html {
 
 body {
 	margin: 0;
+	font-family: sans-serif;
 }
 
 a {
@@ -19,13 +20,11 @@ a {
 }
 
 .wrapper {
-	/*max-width: 950px;*/
-	padding: 0 20px ;
-	/*margin: auto;*/
+	margin: 0 20px ;
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 36px;
 	margin: 25px 0;
 }
 
@@ -33,44 +32,57 @@ h1 {
 
 .navbar {
 	position: fixed;
-	left: 0;
 	width: 100%;
 	color: #111;
-	/*background: rgba(255, 255, 255, 0.95);*/
-	margin-top: 0;
+	/*margin-top: 0;*/
 }
-
 .navbar-brand {
+	/*display: block;*/
+	width: 100%;
+	/*clear: right;*/
 	float: left;
-	padding-left: 5%;
 }
-
-.navbar-brand > a {
-}
-
 .navbar-links {
-	float: right;
-	padding-right: 5%;
-	width: auto;
-	margin: 30px 0;
+	width: 100%;
+	/*float: right;*/
+	/*clear: left;*/
+	padding-right: 40px;
+	/*margin: 10px 0;*/
+	text-transform: uppercase;
 }
 .navbar-links > li {
+	float: right;
 	display: inline-block;
-	margin-right: 5px;
-	font-size: 18px;
+	margin-right: 15px;
+	font-size: 22px;
+}
+.navbar-links > li:hover {
+	text-decoration: underline;
+}
+.years {
+	/*position: relative;*/
+	display: block;
+	float: left;
+	/*border: 1px solid red;*/
+	margin-top: -20px;
+	margin-left: -15px;
+}
+.years > li {
+	/*display: block;*/
+	padding-top: 5px;
 }
 
 /*Works Page*/
 
 .works {
 	padding-top: 100px;
-	padding-left: 20%;
+	padding-left: 17%;
 }
 
 .item > img {
+	width: calc(83vw - 10px);
 	max-width: 500px;
-	max-height: 800px;
-	max-height: calc(100vh - 200px);
+	/*max-height: 800px;*/
 }
 
 .item {
